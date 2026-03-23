@@ -1,0 +1,5 @@
+strategy,best_params,best_cv_f1,test_accuracy,test_f1,test_auc
+CloseSMA200,"{'model__max_depth': None, 'model__min_samples_leaf': 1, 'model__min_samples_split': 5, 'model__n_estimators': 100}",0.76,0.6,0.6666666666666666,0.5
+SMA20_50,"{'model__max_depth': None, 'model__min_samples_leaf': 2, 'model__min_samples_split': 2, 'model__n_estimators': 100}",0.586047471620227,0.5454545454545454,0.6153846153846154,0.575
+RSI40,"{'model__max_depth': 5, 'model__min_samples_leaf': 2, 'model__min_samples_split': 2, 'model__n_estimators': 200}",0.7732323232323233,0.36363636363636365,0.46153846153846156,0.43333333333333335
+SMA20_50_200,"{'model__max_depth': 5, 'model__min_samples_leaf': 1, 'model__min_samples_split': 2, 'model__n_estimators': 100}",0.5454945054945055,0.7142857142857143,0.75,0.8125

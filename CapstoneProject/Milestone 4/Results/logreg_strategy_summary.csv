@@ -1,0 +1,5 @@
+strategy,best_params,best_cv_f1,test_accuracy,test_f1,test_auc
+CloseSMA200,"{'model__C': 0.01, 'model__penalty': 'l2', 'model__solver': 'lbfgs'}",0.7847619047619047,0.6,0.75,0.6666666666666666
+SMA20_50,"{'model__C': 0.01, 'model__penalty': 'l2', 'model__solver': 'lbfgs'}",0.6994677206851119,0.5909090909090909,0.6896551724137931,0.6333333333333333
+RSI40,"{'model__C': 0.1, 'model__penalty': 'l2', 'model__solver': 'lbfgs'}",0.722121212121212,0.5454545454545454,0.6153846153846154,0.8
+SMA20_50_200,"{'model__C': 10, 'model__penalty': 'l2', 'model__solver': 'lbfgs'}",0.7242424242424242,0.7142857142857143,0.7142857142857143,0.9166666666666667

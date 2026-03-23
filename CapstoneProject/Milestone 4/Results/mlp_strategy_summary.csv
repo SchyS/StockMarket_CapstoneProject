@@ -1,0 +1,5 @@
+strategy,best_params,best_cv_f1,test_accuracy,test_f1,test_auc
+CloseSMA200,"{'model__activation': 'relu', 'model__alpha': 0.0001, 'model__hidden_layer_sizes': (64,), 'model__learning_rate_init': 0.001}",0.7914285714285715,0.8,0.8571428571428571,0.8333333333333333
+SMA20_50,"{'model__activation': 'relu', 'model__alpha': 0.0001, 'model__hidden_layer_sizes': (64,), 'model__learning_rate_init': 0.001}",0.6483359351645797,0.5,0.6451612903225806,0.3833333333333333
+RSI40,"{'model__activation': 'relu', 'model__alpha': 0.0001, 'model__hidden_layer_sizes': (64,), 'model__learning_rate_init': 0.001}",0.6533333333333333,0.36363636363636365,0.46153846153846156,0.39999999999999997
+SMA20_50_200,"{'model__activation': 'tanh', 'model__alpha': 0.0001, 'model__hidden_layer_sizes': (32,), 'model__learning_rate_init': 0.01}",0.6202197802197802,0.6428571428571429,0.7058823529411765,0.6458333333333334
