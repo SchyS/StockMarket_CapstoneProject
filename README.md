@@ -9,7 +9,7 @@ several models to determine classify the outcome.
 The data acquisition process used Yahoo Finance's API, yfinance, to collect the S&P 500 ETF (Ticker: SPY) Data over
 the last 15 years (1/03/2011 to 12/31/2025). 
 
-The our raw S&P500 ETC dataset goes through several preprocessing steps. First, missing values are checked in each by looking
+The raw S&P500 ETC dataset goes through several preprocessing steps. First, missing values are checked in each by looking
 for null and missing data. None are found. Next, duplicates were checked by first looking for duplicate dates, then by looking 
 for exact 1 to 1 identical rows. No duplicates were found. 
 
