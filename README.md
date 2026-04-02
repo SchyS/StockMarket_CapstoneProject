@@ -9,7 +9,6 @@ several models to determine classify the outcome.
 The data acquisition process used Yahoo Finance's API, yfinance, to collect the S&P 500 ETF (Ticker: SPY) Data over
 the last 15 years (1/03/2011 to 12/31/2025). 
 
-## Methology
 The our raw S&P500 ETC dataset goes through several preprocessing steps. First, missing values are checked in each by looking
 for null and missing data. None are found. Next, duplicates were checked by first looking for duplicate dates, then by looking 
 for exact 1 to 1 identical rows. No duplicates were found. 
@@ -22,6 +21,7 @@ gap_retm, mom_5d, mom_10d, mom_20d, SMA_20, SMA_50, SMA_200, vol_20d, vol_20d_an
 close_vs_sma20, close_vs_sma50, close_vs_sma200, sma20_vs_sma50, sma50_vs_sma200, sma20_vs_sma200, zclose_20, EMA_12, EMA_26, MACD, 
 MACD_signal, MACD_hist, RSI_14, ATR_14, BB_mid_20, BB_std_20, BB_upper_20, BB_lower_20, BB_width_20, BB_pctB_20, stoch_k_14, stoch_d_3
 
+## Methology
 After feature engineering we must incorporate and start building our pipeline starting with the trading strategies. The following four 
 strategies are used:
 
