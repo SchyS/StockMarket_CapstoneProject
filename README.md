@@ -74,3 +74,10 @@ For each of the three model files, "Logisitic Regression", "Neural Network", and
 Following these steps should give the outputs for each model and are automatically saved as csv files. There are several other
 files included but are optional in running. These include but are not limited to exploratory data analysis, model comparisons
 and the original result files.
+
+### Run Time
+This project was done through databricks. When using databricks servers each cell in each file ran within 5 seconds with a 
+select few outliers. On occassion, the data viewing (usually when viewing tables), took longer to load (Usually under 1 minute). 
+Also, on certain instances each cell involving feature engineering had an increased run time (Under 1 minute). Finally,
+for each model the runtime on average were between 30 seconds and 2 minutes. These runtimes may vary depending on application
+used and/ or personal equipment or tools. 
